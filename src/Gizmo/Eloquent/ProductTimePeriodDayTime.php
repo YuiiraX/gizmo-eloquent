@@ -1,22 +1,22 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\ProductTimePeriodDayTime
+ * YuiiraX\Gizmo\Eloquent\ProductTimePeriodDayTime
  *
  * @property int                                         $PeriodDayId
  * @property int                                         $StartSecond
  * @property int                                         $EndSecond
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductTimePeriodDay $productTimePeriodDay
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDayTime newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDayTime newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDayTime query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDayTime whereEndSecond($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDayTime wherePeriodDayId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDayTime whereStartSecond($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductTimePeriodDay $productTimePeriodDay
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDayTime newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDayTime newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDayTime query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDayTime whereEndSecond($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDayTime wherePeriodDayId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDayTime whereStartSecond($value)
  * @mixin \Eloquent
  */
 class ProductTimePeriodDayTime extends Model

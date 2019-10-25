@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\PresetTimeSale
+ * YuiiraX\Gizmo\Eloquent\PresetTimeSale
  *
  * @property int                                      $PresetTimeSaleId
  * @property int                                      $Value
@@ -14,18 +14,18 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null                              $ModifiedTime
  * @property int|null                                 $CreatedById
  * @property string                                   $CreatedTime
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null $modifiedBy
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\PresetTimeSale newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\PresetTimeSale newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\PresetTimeSale query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\PresetTimeSale whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\PresetTimeSale whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\PresetTimeSale whereDisplayOrder($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\PresetTimeSale whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\PresetTimeSale whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\PresetTimeSale wherePresetTimeSaleId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\PresetTimeSale whereValue($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null $modifiedBy
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\PresetTimeSale newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\PresetTimeSale newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\PresetTimeSale query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\PresetTimeSale whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\PresetTimeSale whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\PresetTimeSale whereDisplayOrder($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\PresetTimeSale whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\PresetTimeSale whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\PresetTimeSale wherePresetTimeSaleId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\PresetTimeSale whereValue($value)
  * @mixin \Eloquent
  */
 class PresetTimeSale extends Model

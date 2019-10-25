@@ -1,28 +1,28 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\ProductBundle
+ * YuiiraX\Gizmo\Eloquent\ProductBundle
  *
  * @property int                                                                                      $ProductId
  * @property int                                                                                      $BundleStockOptions
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\BundleProduct[]          $_bundleProducts
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\BundleProduct[]          $_bundleProducts
  * @property-read int|null                                                                            $_bundle_products_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ProductBundleUserPrice[] $_pricedUserGroup
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ProductBundleUserPrice[] $_pricedUserGroup
  * @property-read int|null                                                                            $_priced_user_group_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ProductBase[]            $bundleProducts
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ProductBase[]            $bundleProducts
  * @property-read int|null                                                                            $bundle_products_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserGroup[]              $pricedUserGroup
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserGroup[]              $pricedUserGroup
  * @property-read int|null                                                                            $priced_user_group_count
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductBaseExtended                                               $productBaseExtended
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductBundle newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductBundle newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductBundle query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductBundle whereBundleStockOptions($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductBundle whereProductId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductBaseExtended                                               $productBaseExtended
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductBundle newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductBundle newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductBundle query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductBundle whereBundleStockOptions($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductBundle whereProductId($value)
  * @mixin \Eloquent
  */
 class ProductBundle extends Model

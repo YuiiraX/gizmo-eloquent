@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Relations\Pivot;
 
 /**
- * Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout
+ * YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout
  *
  * @property int                                      $HostLayoutGroupLayoutId
  * @property int                                      $HostLayoutGroupId
@@ -19,25 +19,25 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
  * @property string|null                              $ModifiedTime
  * @property int|null                                 $CreatedById
  * @property string                                   $CreatedTime
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\Host              $host
- * @property-read \Yuiirax\Gizmo\Eloquent\HostLayoutGroup   $hostLayoutGroup
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null $modifiedBy
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereHeight($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereHostId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereHostLayoutGroupId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereHostLayoutGroupLayoutId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereIsHidden($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereWidth($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereX($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout whereY($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\Host              $host
+ * @property-read \YuiiraX\Gizmo\Eloquent\HostLayoutGroup   $hostLayoutGroup
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null $modifiedBy
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereHeight($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereHostId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereHostLayoutGroupId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereHostLayoutGroupLayoutId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereIsHidden($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereWidth($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereX($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout whereY($value)
  * @mixin \Eloquent
  */
 class HostLayoutGroupLayout extends Pivot

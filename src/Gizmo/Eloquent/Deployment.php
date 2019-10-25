@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\Deployment
+ * YuiiraX\Gizmo\Eloquent\Deployment
  *
  * @property int                                                                                    $DeploymentId
  * @property string                                                                                 $Name
@@ -23,43 +23,43 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null                                                                            $ModifiedTime
  * @property int|null                                                                               $CreatedById
  * @property string                                                                                 $CreatedTime
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AppExe[]               $_children
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AppExe[]               $_children
  * @property-read int|null                                                                          $_children_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AppExeDeployment[]     $_exes
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AppExeDeployment[]     $_exes
  * @property-read int|null                                                                          $_exes_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AppExe[]               $_parents
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AppExe[]               $_parents
  * @property-read int|null                                                                          $_parents_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AppExe[]               $appExes
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AppExe[]               $appExes
  * @property-read int|null                                                                          $app_exes_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\DeploymentDeployment[] $children
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\DeploymentDeployment[] $children
  * @property-read int|null                                                                          $children_count
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                               $createdBy
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AppExe[]               $defaultsFor
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                               $createdBy
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AppExe[]               $defaultsFor
  * @property-read int|null                                                                          $defaults_for_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AppExe[]               $exes
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AppExe[]               $exes
  * @property-read int|null                                                                          $exes_count
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                               $modifiedBy
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\DeploymentDeployment[] $parents
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                               $modifiedBy
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\DeploymentDeployment[] $parents
  * @property-read int|null                                                                          $parents_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereComparisonLevel($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereDeploymentId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereDestination($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereExcludeDirectories($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereExcludeFiles($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereGuid($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereIncludeDirectories($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereIncludeFiles($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereOptions($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereRegistryString($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Deployment whereSource($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereComparisonLevel($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereDeploymentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereDestination($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereExcludeDirectories($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereExcludeFiles($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereGuid($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereIncludeDirectories($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereIncludeFiles($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereOptions($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereRegistryString($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Deployment whereSource($value)
  * @mixin \Eloquent
  */
 class Deployment extends Model

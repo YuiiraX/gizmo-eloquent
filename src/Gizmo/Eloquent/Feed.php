@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\Feed
+ * YuiiraX\Gizmo\Eloquent\Feed
  *
  * @property int                                      $FeedId
  * @property string                                   $Title
@@ -15,19 +15,19 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null                              $ModifiedTime
  * @property int|null                                 $CreatedById
  * @property string                                   $CreatedTime
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null $modifiedBy
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed whereFeedId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed whereMaximum($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed whereTitle($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Feed whereUrl($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null $modifiedBy
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed whereFeedId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed whereMaximum($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed whereTitle($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Feed whereUrl($value)
  * @mixin \Eloquent
  */
 class Feed extends Model

@@ -1,23 +1,23 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\ProductOLExtended
+ * YuiiraX\Gizmo\Eloquent\ProductOLExtended
  *
  * @property int                                          $ProductOLId
  * @property int|null                                     $BundleLineId
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOLProduct|null $bundleLine
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOL             $productOL
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOLProduct      $productOLProduct
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOLTime         $productOLTime
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLExtended newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLExtended newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLExtended query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLExtended whereBundleLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLExtended whereProductOLId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOLProduct|null $bundleLine
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOL             $productOL
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOLProduct      $productOLProduct
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOLTime         $productOLTime
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLExtended newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLExtended newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLExtended query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLExtended whereBundleLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLExtended whereProductOLId($value)
  * @mixin \Eloquent
  */
 class ProductOLExtended extends Model

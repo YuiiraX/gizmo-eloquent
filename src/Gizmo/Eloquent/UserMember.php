@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\UserMember
+ * YuiiraX\Gizmo\Eloquent\UserMember
  *
  * @property int                                                                                         $UserId
  * @property string                                                                                      $Username
@@ -16,82 +16,82 @@ use Illuminate\Database\Eloquent\Model;
  * @property int|null                                                                                    $BillingOptions
  * @property string|null                                                                                 $EnableDate
  * @property string|null                                                                                 $DisabledDate
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ReservationHost[]           $_hostPreferred
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ReservationHost[]           $_hostPreferred
  * @property-read int|null                                                                               $_host_preferred_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserNote[]                  $_notes
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserNote[]                  $_notes
  * @property-read int|null                                                                               $_notes_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AppRating[]                 $_ratedApps
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AppRating[]                 $_ratedApps
  * @property-read int|null                                                                               $_rated_apps_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ReservationHost[]           $_reservationPreferred
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ReservationHost[]           $_reservationPreferred
  * @property-read int|null                                                                               $_reservation_preferred_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ReservationUser[]           $_reservations
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ReservationUser[]           $_reservations
  * @property-read int|null                                                                               $_reservations_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry[] $_waitingHostGroups
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry[] $_waitingHostGroups
  * @property-read int|null                                                                               $_waiting_host_groups_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry[] $_waitingLines
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry[] $_waitingLines
  * @property-read int|null                                                                               $_waiting_lines_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AppStat[]                   $appStats
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AppStat[]                   $appStats
  * @property-read int|null                                                                               $app_stats_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AssetTransaction[]          $assetTransactions
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AssetTransaction[]          $assetTransactions
  * @property-read int|null                                                                               $asset_transactions_count
- * @property-read \Yuiirax\Gizmo\Eloquent\UserCreditLimit                                                      $creditLimit
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\DepositPayment[]            $depositPayments
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserCreditLimit                                                      $creditLimit
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\DepositPayment[]            $depositPayments
  * @property-read int|null                                                                               $deposit_payments_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\DepositTransaction[]        $depositTransactions
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\DepositTransaction[]        $depositTransactions
  * @property-read int|null                                                                               $deposit_transactions_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Host[]                      $hostPreferred
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Host[]                      $hostPreferred
  * @property-read int|null                                                                               $host_preferred_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\InvoiceLine[]               $invoiceLines
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\InvoiceLine[]               $invoiceLines
  * @property-read int|null                                                                               $invoice_lines_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\InvoicePayment[]            $invoicePayments
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\InvoicePayment[]            $invoicePayments
  * @property-read int|null                                                                               $invoice_payments_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Invoice[]                   $invoices
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Invoice[]                   $invoices
  * @property-read int|null                                                                               $invoices_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Note[]                      $notes
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Note[]                      $notes
  * @property-read int|null                                                                               $notes_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ProductOL[]                 $orderLines
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ProductOL[]                 $orderLines
  * @property-read int|null                                                                               $order_lines_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ProductOrder[]              $orders
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ProductOrder[]              $orders
  * @property-read int|null                                                                               $orders_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Payment[]                   $payments
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Payment[]                   $payments
  * @property-read int|null                                                                               $payments_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\PointTransaction[]          $pointTransactions
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\PointTransaction[]          $pointTransactions
  * @property-read int|null                                                                               $point_transactions_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\App[]                       $ratedApps
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\App[]                       $ratedApps
  * @property-read int|null                                                                               $rated_apps_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Reservation[]               $reservationPreferred
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Reservation[]               $reservationPreferred
  * @property-read int|null                                                                               $reservation_preferred_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Reservation[]               $reservations
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Reservation[]               $reservations
  * @property-read int|null                                                                               $reservations_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Reservation[]               $reserved
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Reservation[]               $reserved
  * @property-read int|null                                                                               $reserved_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UsageSession[]              $usageSessions
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UsageSession[]              $usageSessions
  * @property-read int|null                                                                               $usage_sessions_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Usage[]                     $usages
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Usage[]                     $usages
  * @property-read int|null                                                                               $usages_count
- * @property-read \Yuiirax\Gizmo\Eloquent\User                                                                 $user
- * @property-read \Yuiirax\Gizmo\Eloquent\UserGroup                                                            $userGroup
- * @property-read \Yuiirax\Gizmo\Eloquent\UserGuest                                                            $userGuest
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserSessionChange[]         $userSessionChanges
+ * @property-read \YuiiraX\Gizmo\Eloquent\User                                                                 $user
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserGroup                                                            $userGroup
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserGuest                                                            $userGuest
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserSessionChange[]         $userSessionChanges
  * @property-read int|null                                                                               $user_session_changes_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserSession[]               $userSessions
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserSession[]               $userSessions
  * @property-read int|null                                                                               $user_sessions_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\HostGroup[]                 $waitingHostGroups
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\HostGroup[]                 $waitingHostGroups
  * @property-read int|null                                                                               $waiting_host_groups_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLine[]      $waitingLines
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLine[]      $waitingLines
  * @property-read int|null                                                                               $waiting_lines_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember whereBillingOptions($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember whereDisabledDate($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember whereEmail($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember whereEnableDate($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember whereIsNegativeBalanceAllowed($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember whereIsPersonalInfoRequested($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember whereUserGroupId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember whereUserId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserMember whereUsername($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember whereBillingOptions($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember whereDisabledDate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember whereEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember whereEnableDate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember whereIsNegativeBalanceAllowed($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember whereIsPersonalInfoRequested($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember whereUserGroupId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember whereUserId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserMember whereUsername($value)
  * @mixin \Eloquent
  */
 class UserMember extends Model

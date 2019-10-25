@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\UsageSession
+ * YuiiraX\Gizmo\Eloquent\UsageSession
  *
  * @property int                                                                     $UsageSessionId
  * @property int                                                                     $UserId
@@ -18,27 +18,27 @@ use Illuminate\Database\Eloquent\Model;
  * @property float                                                                   $RatesTotal
  * @property string|null                                                             $ModifiedTime
  * @property string                                                                  $CreatedTime
- * @property-read \Yuiirax\Gizmo\Eloquent\Usage|null                                       $currentUsage
- * @property-read \Yuiirax\Gizmo\Eloquent\UserMember                                       $customer
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLineSession                               $invoiceLineSession
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOLSession                                 $productOLSessions
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Usage[] $usages
+ * @property-read \YuiiraX\Gizmo\Eloquent\Usage|null                                       $currentUsage
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserMember                                       $customer
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLineSession                               $invoiceLineSession
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOLSession                                 $productOLSessions
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Usage[] $usages
  * @property-read int|null                                                           $usages_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession ofPeriod($start, $end)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereCurrentSecond($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereCurrentUsageId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereIsActive($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereMinimumFee($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereNegativeSeconds($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereRatesTotal($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereStartFee($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereUsageSessionId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageSession whereUserId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession ofPeriod($start, $end)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereCurrentSecond($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereCurrentUsageId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereIsActive($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereMinimumFee($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereNegativeSeconds($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereRatesTotal($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereStartFee($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereUsageSessionId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageSession whereUserId($value)
  * @mixin \Eloquent
  */
 class UsageSession extends Model

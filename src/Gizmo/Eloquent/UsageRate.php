@@ -1,27 +1,27 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\UsageRate
+ * YuiiraX\Gizmo\Eloquent\UsageRate
  *
  * @property int                                     $UsageId
  * @property int                                     $BillRateId
  * @property float                                   $Total
  * @property float                                   $Rate
  * @property string                                  $BillProfileStamp
- * @property-read \Yuiirax\Gizmo\Eloquent\BillRate         $billRate
- * @property-read \Yuiirax\Gizmo\Eloquent\UsageUserSession $usageUserSession
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageRate newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageRate newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageRate query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageRate whereBillProfileStamp($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageRate whereBillRateId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageRate whereRate($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageRate whereTotal($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageRate whereUsageId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\BillRate         $billRate
+ * @property-read \YuiiraX\Gizmo\Eloquent\UsageUserSession $usageUserSession
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageRate newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageRate newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageRate query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageRate whereBillProfileStamp($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageRate whereBillRateId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageRate whereRate($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageRate whereTotal($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageRate whereUsageId($value)
  * @mixin \Eloquent
  */
 class UsageRate extends Model

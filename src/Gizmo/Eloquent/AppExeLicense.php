@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Relations\Pivot;
 
 /**
- * Yuiirax\Gizmo\Eloquent\AppExeLicense
+ * YuiiraX\Gizmo\Eloquent\AppExeLicense
  *
  * @property int                                      $AppExeId
  * @property int                                      $LicenseId
@@ -14,20 +14,20 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
  * @property string|null                              $ModifiedTime
  * @property int|null                                 $CreatedById
  * @property string                                   $CreatedTime
- * @property-read \Yuiirax\Gizmo\Eloquent\AppExe            $appExe
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\License           $license
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null $modifiedBy
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppExeLicense newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppExeLicense newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppExeLicense query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppExeLicense whereAppExeId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppExeLicense whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppExeLicense whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppExeLicense whereLicenseId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppExeLicense whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppExeLicense whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppExeLicense whereUseOrder($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\AppExe            $appExe
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\License           $license
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null $modifiedBy
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppExeLicense newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppExeLicense newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppExeLicense query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppExeLicense whereAppExeId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppExeLicense whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppExeLicense whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppExeLicense whereLicenseId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppExeLicense whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppExeLicense whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppExeLicense whereUseOrder($value)
  * @mixin \Eloquent
  */
 class AppExeLicense extends Pivot

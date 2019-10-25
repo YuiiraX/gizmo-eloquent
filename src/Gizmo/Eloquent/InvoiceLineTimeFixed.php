@@ -1,25 +1,25 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\InvoiceLineTimeFixed
+ * YuiiraX\Gizmo\Eloquent\InvoiceLineTimeFixed
  *
  * @property int                                                                                $InvoiceLineId
  * @property int                                                                                $OrderLineId
  * @property bool                                                                               $IsDepleted
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLine                                                 $invoiceLine
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOLTimeFixed                                          $productOLTimeFixed
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UsageUserSession[] $usage
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLine                                                 $invoiceLine
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOLTimeFixed                                          $productOLTimeFixed
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UsageUserSession[] $usage
  * @property-read int|null                                                                      $usage_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTimeFixed newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTimeFixed newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTimeFixed query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTimeFixed whereInvoiceLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTimeFixed whereIsDepleted($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTimeFixed whereOrderLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTimeFixed newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTimeFixed newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTimeFixed query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTimeFixed whereInvoiceLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTimeFixed whereIsDepleted($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTimeFixed whereOrderLineId($value)
  * @mixin \Eloquent
  */
 class InvoiceLineTimeFixed extends Model

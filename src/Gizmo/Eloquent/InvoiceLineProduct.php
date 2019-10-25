@@ -1,26 +1,26 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\InvoiceLineProduct
+ * YuiiraX\Gizmo\Eloquent\InvoiceLineProduct
  *
  * @property int                                                                           $InvoiceLineId
  * @property int                                                                           $OrderLineId
  * @property int                                                                           $ProductId
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\InvoiceLine[] $bundledLines
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\InvoiceLine[] $bundledLines
  * @property-read int|null                                                                 $bundled_lines_count
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLineExtended                                    $invoiceLineExtended
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductBaseExtended                                    $productBaseExtended
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOLProduct                                       $productOLProduct
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineProduct newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineProduct newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineProduct query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineProduct whereInvoiceLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineProduct whereOrderLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineProduct whereProductId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLineExtended                                    $invoiceLineExtended
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductBaseExtended                                    $productBaseExtended
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOLProduct                                       $productOLProduct
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineProduct newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineProduct newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineProduct query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineProduct whereInvoiceLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineProduct whereOrderLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineProduct whereProductId($value)
  * @mixin \Eloquent
  */
 class InvoiceLineProduct extends Model

@@ -1,29 +1,29 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\InvoiceLineExtended
+ * YuiiraX\Gizmo\Eloquent\InvoiceLineExtended
  *
  * @property int                                            $InvoiceLineId
  * @property int|null                                       $BundleLineId
  * @property int|null                                       $StockTransactionId
  * @property int|null                                       $StockReturnTransactionId
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLineProduct|null $bundleLine
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLine             $invoiceLine
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLineProduct      $invoiceLineProduct
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLineTime         $invoiceLineTime
- * @property-read \Yuiirax\Gizmo\Eloquent\StockTransaction|null   $stockReturnTransaction
- * @property-read \Yuiirax\Gizmo\Eloquent\StockTransaction|null   $stockTransaction
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineExtended newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineExtended newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineExtended query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineExtended whereBundleLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineExtended whereInvoiceLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineExtended whereStockReturnTransactionId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineExtended whereStockTransactionId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLineProduct|null $bundleLine
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLine             $invoiceLine
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLineProduct      $invoiceLineProduct
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLineTime         $invoiceLineTime
+ * @property-read \YuiiraX\Gizmo\Eloquent\StockTransaction|null   $stockReturnTransaction
+ * @property-read \YuiiraX\Gizmo\Eloquent\StockTransaction|null   $stockTransaction
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineExtended newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineExtended newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineExtended query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineExtended whereBundleLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineExtended whereInvoiceLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineExtended whereStockReturnTransactionId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineExtended whereStockTransactionId($value)
  * @mixin \Eloquent
  */
 class InvoiceLineExtended extends Model

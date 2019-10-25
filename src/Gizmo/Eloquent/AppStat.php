@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\AppStat
+ * YuiiraX\Gizmo\Eloquent\AppStat
  *
  * @property int                                 $AppStatId
  * @property int                                 $AppId
@@ -14,20 +14,20 @@ use Illuminate\Database\Eloquent\Model;
  * @property int                                 $UserId
  * @property float                               $Span
  * @property string                              $StartTime
- * @property-read \Yuiirax\Gizmo\Eloquent\App          $app
- * @property-read \Yuiirax\Gizmo\Eloquent\AppExe       $appExe
- * @property-read \Yuiirax\Gizmo\Eloquent\UserMember   $customer
- * @property-read \Yuiirax\Gizmo\Eloquent\HostComputer $hostComputer
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppStat newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppStat newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppStat query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppStat whereAppExeId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppStat whereAppId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppStat whereAppStatId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppStat whereHostId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppStat whereSpan($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppStat whereStartTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppStat whereUserId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\App          $app
+ * @property-read \YuiiraX\Gizmo\Eloquent\AppExe       $appExe
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserMember   $customer
+ * @property-read \YuiiraX\Gizmo\Eloquent\HostComputer $hostComputer
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppStat newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppStat newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppStat query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppStat whereAppExeId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppStat whereAppId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppStat whereAppStatId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppStat whereHostId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppStat whereSpan($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppStat whereStartTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppStat whereUserId($value)
  * @mixin \Eloquent
  */
 class AppStat extends Model

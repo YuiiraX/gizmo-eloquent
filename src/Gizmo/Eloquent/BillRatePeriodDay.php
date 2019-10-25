@@ -1,24 +1,24 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\BillRatePeriodDay
+ * YuiiraX\Gizmo\Eloquent\BillRatePeriodDay
  *
  * @property int                                                                                     $BillRatePeriodDayId
  * @property int                                                                                     $BillRateId
  * @property int                                                                                     $Day
- * @property-read \Yuiirax\Gizmo\Eloquent\BillRate                                                         $billRate
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDayTime[] $times
+ * @property-read \YuiiraX\Gizmo\Eloquent\BillRate                                                         $billRate
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDayTime[] $times
  * @property-read int|null                                                                           $times_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDay newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDay newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDay query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDay whereBillRateId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDay whereBillRatePeriodDayId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDay whereDay($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDay newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDay newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDay query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDay whereBillRateId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDay whereBillRatePeriodDayId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDay whereDay($value)
  * @mixin \Eloquent
  */
 class BillRatePeriodDay extends Model

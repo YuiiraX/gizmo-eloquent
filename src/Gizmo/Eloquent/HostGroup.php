@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\HostGroup
+ * YuiiraX\Gizmo\Eloquent\HostGroup
  *
  * @property int                                                                                         $HostGroupId
  * @property string                                                                                      $Name
@@ -18,44 +18,44 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null                                                                                 $ModifiedTime
  * @property int|null                                                                                    $CreatedById
  * @property string                                                                                      $CreatedTime
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ProductTimeHostDisallowed[] $_disallowedProductTimes
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ProductTimeHostDisallowed[] $_disallowedProductTimes
  * @property-read int|null                                                                               $_disallowed_product_times_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserGroupHostDisallowed[]   $_disallowedUserGroups
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserGroupHostDisallowed[]   $_disallowedUserGroups
  * @property-read int|null                                                                               $_disallowed_user_groups_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\HostGroupUserBillProfile[]  $_userGroupBillProfiles
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\HostGroupUserBillProfile[]  $_userGroupBillProfiles
  * @property-read int|null                                                                               $_user_group_bill_profiles_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry[] $_waitingUsers
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry[] $_waitingUsers
  * @property-read int|null                                                                               $_waiting_users_count
- * @property-read \Yuiirax\Gizmo\Eloquent\AppGroup|null                                                        $appGroup
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                                    $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\UserGroup|null                                                       $defaultGuestGroup
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ProductTime[]               $disallowedProductTimes
+ * @property-read \YuiiraX\Gizmo\Eloquent\AppGroup|null                                                        $appGroup
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                                    $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserGroup|null                                                       $defaultGuestGroup
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ProductTime[]               $disallowedProductTimes
  * @property-read int|null                                                                               $disallowed_product_times_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserGroup[]                 $disallowedUserGroups
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserGroup[]                 $disallowedUserGroups
  * @property-read int|null                                                                               $disallowed_user_groups_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Host[]                      $hosts
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Host[]                      $hosts
  * @property-read int|null                                                                               $hosts_count
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                                    $modifiedBy
- * @property-read \Yuiirax\Gizmo\Eloquent\SecurityProfile|null                                                 $securityProfile
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserGroup[]                 $userGroupBillProfiles
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                                    $modifiedBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\SecurityProfile|null                                                 $securityProfile
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserGroup[]                 $userGroupBillProfiles
  * @property-read int|null                                                                               $user_group_bill_profiles_count
- * @property-read \Yuiirax\Gizmo\Eloquent\HostGroupWaitingLine                                                 $waitingLine
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserMember[]                $waitingUsers
+ * @property-read \YuiiraX\Gizmo\Eloquent\HostGroupWaitingLine                                                 $waitingLine
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserMember[]                $waitingUsers
  * @property-read int|null                                                                               $waiting_users_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereAppGroupId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereDefaultGuestGroupId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereHostGroupId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereOptions($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereSecurityProfileId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroup whereSkinName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereAppGroupId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereDefaultGuestGroupId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereHostGroupId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereOptions($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereSecurityProfileId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroup whereSkinName($value)
  * @mixin \Eloquent
  */
 class HostGroup extends Model

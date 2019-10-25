@@ -1,24 +1,24 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\ProductTimePeriodDay
+ * YuiiraX\Gizmo\Eloquent\ProductTimePeriodDay
  *
  * @property int                                                                                        $ProductTimePeriodDayId
  * @property int                                                                                        $ProductTimePeriodId
  * @property int                                                                                        $Day
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductTimePeriod                                                   $productTimePeriod
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDayTime[] $times
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductTimePeriod                                                   $productTimePeriod
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDayTime[] $times
  * @property-read int|null                                                                              $times_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDay newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDay newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDay query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDay whereDay($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDay whereProductTimePeriodDayId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTimePeriodDay whereProductTimePeriodId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDay newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDay newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDay query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDay whereDay($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDay whereProductTimePeriodDayId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTimePeriodDay whereProductTimePeriodId($value)
  * @mixin \Eloquent
  */
 class ProductTimePeriodDay extends Model

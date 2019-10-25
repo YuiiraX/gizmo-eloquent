@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\ProductTime
+ * YuiiraX\Gizmo\Eloquent\ProductTime
  *
  * @property int                                                                                         $ProductId
  * @property int                                                                                         $Minutes
@@ -19,32 +19,32 @@ use Illuminate\Database\Eloquent\Model;
  * @property int                                                                                         $UseOrder
  * @property int                                                                                         $ExpireAfterType
  * @property int                                                                                         $ExpireAtDayTimeMinute
- * @property-read \Yuiirax\Gizmo\Eloquent\AppGroup|null                                                        $appGroup
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\HostGroup[]                 $disallowedHostGroups
+ * @property-read \YuiiraX\Gizmo\Eloquent\AppGroup|null                                                        $appGroup
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\HostGroup[]                 $disallowedHostGroups
  * @property-read int|null                                                                               $disallowed_host_groups_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\InvoiceLineTime[]           $invoiceLineTimes
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\InvoiceLineTime[]           $invoiceLineTimes
  * @property-read int|null                                                                               $invoice_line_times_count
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductBase                                                          $productBase
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ProductOLTime[]             $productOLTimes
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductBase                                                          $productBase
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ProductOLTime[]             $productOLTimes
  * @property-read int|null                                                                               $product_o_l_times_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ProductTimeHostDisallowed[] $productTimeHostDisalloweds
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ProductTimeHostDisallowed[] $productTimeHostDisalloweds
  * @property-read int|null                                                                               $product_time_host_disalloweds_count
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductTimePeriod                                                    $productTimePeriod
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereAppGroupId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereExpirationOptions($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereExpireAfterType($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereExpireAtDayTimeMinute($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereExpireFromOptions($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereExpiresAfter($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereMinutes($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereProductId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereUsageOptions($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereUseOrder($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereWeekDayMaxMinutes($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductTime whereWeekEndMaxMinutes($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductTimePeriod                                                    $productTimePeriod
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereAppGroupId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereExpirationOptions($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereExpireAfterType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereExpireAtDayTimeMinute($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereExpireFromOptions($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereExpiresAfter($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereMinutes($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereProductId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereUsageOptions($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereUseOrder($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereWeekDayMaxMinutes($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductTime whereWeekEndMaxMinutes($value)
  * @mixin \Eloquent
  */
 class ProductTime extends Model

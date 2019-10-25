@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 
 use Illuminate\Support\ServiceProvider;
@@ -9,8 +9,6 @@ use Illuminate\Support\Facades\Config;
 
 class GizmoEloquentServiceProvider extends ServiceProvider
 {
-
-
     /**
      * Bootstrap the application events.
      *
@@ -19,8 +17,8 @@ class GizmoEloquentServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/package.php' => config_path('package.php')
-        ], 'config');
+            __DIR__.'/../config/gizmo-eloquent.php' => config_path('gizmo-eloquent.php')
+        ], 'gizmo-eloquent-config');
     }
 
     /**
@@ -30,10 +28,9 @@ class GizmoEloquentServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $configPath = __DIR__.'/../config/gizmo_eloquent.php';
-
-        /** @noinspection PhpUndefinedMethodInspection */
-        /** @noinspection PhpIncludeInspection */
-        Config::push('database.connections', require $configPath);
+        $this->mergeConfigFrom(
+            __DIR__.'/../config/gizmo-eloquent.php',
+            'database.connections'
+        );
     }
 }

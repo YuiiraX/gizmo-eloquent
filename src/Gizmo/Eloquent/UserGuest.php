@@ -1,27 +1,27 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\UserGuest
+ * YuiiraX\Gizmo\Eloquent\UserGuest
  *
  * @property int                               $UserId
  * @property bool                              $IsJoined
  * @property bool                              $IsReserved
  * @property int|null                          $ReservedHostId
  * @property int|null                          $ReservedSlot
- * @property-read \Yuiirax\Gizmo\Eloquent\UserMember $customer
- * @property-read \Yuiirax\Gizmo\Eloquent\Host|null  $reservedHost
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserGuest newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserGuest newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserGuest query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserGuest whereIsJoined($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserGuest whereIsReserved($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserGuest whereReservedHostId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserGuest whereReservedSlot($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserGuest whereUserId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserMember $customer
+ * @property-read \YuiiraX\Gizmo\Eloquent\Host|null  $reservedHost
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserGuest newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserGuest newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserGuest query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserGuest whereIsJoined($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserGuest whereIsReserved($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserGuest whereReservedHostId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserGuest whereReservedSlot($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserGuest whereUserId($value)
  * @mixin \Eloquent
  */
 class UserGuest extends Model

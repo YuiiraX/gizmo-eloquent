@@ -11,12 +11,15 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
-        "illuminate/support": "^6.2"
+        "illuminate/support": "^6.4",
+        "illuminate/database": "^6.4",
+        "illuminate/console": "^6.4",
+        "illuminate/filesystem": "^6.4"
     },
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Yuiirax\\Gizmo\\Eloquent\\": "src/"
+            "YuiiraX\\Gizmo\\Eloquent\\": "src/"
         }
     },
     "require-dev": {
@@ -24,13 +27,13 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Yuiirax\\Gizmo\\Eloquent\\Test\\": "tests"
+            "YuiiraX\\Gizmo\\Eloquent\\Test\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Yuiirax\\Gizmo\\Eloquent\\GizmoEloquentServiceProvider"
+                "YuiiraX\\Gizmo\\Eloquent\\GizmoEloquentServiceProvider"
             ]
         }
     }

@@ -1,24 +1,24 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\InvoiceLineSession
+ * YuiiraX\Gizmo\Eloquent\InvoiceLineSession
  *
  * @property int                                     $InvoiceLineId
  * @property int                                     $OrderLineId
  * @property int                                     $UsageSessionId
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLine      $invoiceLine
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOLSession $productOLSession
- * @property-read \Yuiirax\Gizmo\Eloquent\UsageSession     $usageSession
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineSession newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineSession newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineSession query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineSession whereInvoiceLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineSession whereOrderLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineSession whereUsageSessionId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLine      $invoiceLine
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOLSession $productOLSession
+ * @property-read \YuiiraX\Gizmo\Eloquent\UsageSession     $usageSession
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineSession newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineSession newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineSession query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineSession whereInvoiceLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineSession whereOrderLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineSession whereUsageSessionId($value)
  * @mixin \Eloquent
  */
 class InvoiceLineSession extends Model

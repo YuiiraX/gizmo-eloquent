@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\Verification
+ * YuiiraX\Gizmo\Eloquent\Verification
  *
  * @property int                                            $VerificationId
  * @property int                                            $TokenId
@@ -15,23 +15,23 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null                                    $ModifiedTime
  * @property int|null                                       $CreatedById
  * @property string                                         $CreatedTime
- * @property-read \Yuiirax\Gizmo\Eloquent\User|null               $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\User|null               $modifiedBy
- * @property-read \Yuiirax\Gizmo\Eloquent\User|null               $owner
- * @property-read \Yuiirax\Gizmo\Eloquent\Token                   $token
- * @property-read \Yuiirax\Gizmo\Eloquent\VerificationEmail       $verificationEmail
- * @property-read \Yuiirax\Gizmo\Eloquent\VerificationMobilePhone $verificationMobilePhone
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification whereStatus($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification whereTokenId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification whereUserId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Verification whereVerificationId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\User|null               $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\User|null               $modifiedBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\User|null               $owner
+ * @property-read \YuiiraX\Gizmo\Eloquent\Token                   $token
+ * @property-read \YuiiraX\Gizmo\Eloquent\VerificationEmail       $verificationEmail
+ * @property-read \YuiiraX\Gizmo\Eloquent\VerificationMobilePhone $verificationMobilePhone
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification whereStatus($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification whereTokenId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification whereUserId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Verification whereVerificationId($value)
  * @mixin \Eloquent
  */
 class Verification extends Model

@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\TaskBase
+ * YuiiraX\Gizmo\Eloquent\TaskBase
  *
  * @property int                                                                          $TaskId
  * @property string                                                                       $Name
@@ -14,28 +14,28 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null                                                                  $ModifiedTime
  * @property int|null                                                                     $CreatedById
  * @property string                                                                       $CreatedTime
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AppExeTask[] $_exes
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AppExeTask[] $_exes
  * @property-read int|null                                                                $_exes_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ClientTask[] $clientTasks
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ClientTask[] $clientTasks
  * @property-read int|null                                                                $client_tasks_count
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                     $createdBy
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\AppExe[]     $exes
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                     $createdBy
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\AppExe[]     $exes
  * @property-read int|null                                                                $exes_count
- * @property-read \Yuiirax\Gizmo\Eloquent\TaskJunction                                          $junction
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                     $modifiedBy
- * @property-read \Yuiirax\Gizmo\Eloquent\TaskNotification                                      $notification
- * @property-read \Yuiirax\Gizmo\Eloquent\TaskProcess                                           $process
- * @property-read \Yuiirax\Gizmo\Eloquent\TaskScript                                            $script
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\TaskBase newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\TaskBase newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\TaskBase query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\TaskBase whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\TaskBase whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\TaskBase whereGuid($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\TaskBase whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\TaskBase whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\TaskBase whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\TaskBase whereTaskId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\TaskJunction                                          $junction
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                     $modifiedBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\TaskNotification                                      $notification
+ * @property-read \YuiiraX\Gizmo\Eloquent\TaskProcess                                           $process
+ * @property-read \YuiiraX\Gizmo\Eloquent\TaskScript                                            $script
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\TaskBase newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\TaskBase newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\TaskBase query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\TaskBase whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\TaskBase whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\TaskBase whereGuid($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\TaskBase whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\TaskBase whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\TaskBase whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\TaskBase whereTaskId($value)
  * @mixin \Eloquent
  */
 class TaskBase extends Model

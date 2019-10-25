@@ -1,22 +1,22 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\UsageUserSession
+ * YuiiraX\Gizmo\Eloquent\UsageUserSession
  *
  * @property int                                $UsageId
  * @property int                                $UserSessionId
- * @property-read \Yuiirax\Gizmo\Eloquent\Usage       $usage
- * @property-read \Yuiirax\Gizmo\Eloquent\UsageRate   $usageRate
- * @property-read \Yuiirax\Gizmo\Eloquent\UserSession $userSession
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageUserSession newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageUserSession newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageUserSession query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageUserSession whereUsageId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageUserSession whereUserSessionId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\Usage       $usage
+ * @property-read \YuiiraX\Gizmo\Eloquent\UsageRate   $usageRate
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserSession $userSession
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageUserSession newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageUserSession newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageUserSession query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageUserSession whereUsageId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageUserSession whereUserSessionId($value)
  * @mixin \Eloquent
  */
 class UsageUserSession extends Model

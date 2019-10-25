@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\Usage
+ * YuiiraX\Gizmo\Eloquent\Usage
  *
  * @property int                                                                            $UsageId
  * @property int                                                                            $UsageSessionId
@@ -13,22 +13,22 @@ use Illuminate\Database\Eloquent\Model;
  * @property float                                                                          $Seconds
  * @property string|null                                                                    $ModifiedTime
  * @property string                                                                         $CreatedTime
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UsageSession[] $currentUseBy
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UsageSession[] $currentUseBy
  * @property-read int|null                                                                  $current_use_by_count
- * @property-read \Yuiirax\Gizmo\Eloquent\UserMember                                              $customer
- * @property-read \Yuiirax\Gizmo\Eloquent\UsageRate                                               $usageRate
- * @property-read \Yuiirax\Gizmo\Eloquent\UsageSession                                            $usageSession
- * @property-read \Yuiirax\Gizmo\Eloquent\UsageTime                                               $usageTime
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Usage newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Usage newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Usage ofPeriod($start, $end)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Usage query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Usage whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Usage whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Usage whereSeconds($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Usage whereUsageId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Usage whereUsageSessionId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Usage whereUserId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserMember                                              $customer
+ * @property-read \YuiiraX\Gizmo\Eloquent\UsageRate                                               $usageRate
+ * @property-read \YuiiraX\Gizmo\Eloquent\UsageSession                                            $usageSession
+ * @property-read \YuiiraX\Gizmo\Eloquent\UsageTime                                               $usageTime
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Usage newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Usage newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Usage ofPeriod($start, $end)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Usage query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Usage whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Usage whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Usage whereSeconds($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Usage whereUsageId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Usage whereUsageSessionId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Usage whereUserId($value)
  * @mixin \Eloquent
  */
 class Usage extends Model

@@ -1,21 +1,21 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\VoidInvoice
+ * YuiiraX\Gizmo\Eloquent\VoidInvoice
  *
  * @property int                                    $VoidId
  * @property int                                    $InvoiceId
- * @property-read \Yuiirax\Gizmo\Eloquent\Invoice         $invoice
- * @property-read \Yuiirax\Gizmo\Eloquent\VoidTransaction $transaction
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VoidInvoice newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VoidInvoice newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VoidInvoice query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VoidInvoice whereInvoiceId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VoidInvoice whereVoidId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\Invoice         $invoice
+ * @property-read \YuiiraX\Gizmo\Eloquent\VoidTransaction $transaction
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VoidInvoice newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VoidInvoice newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VoidInvoice query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VoidInvoice whereInvoiceId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VoidInvoice whereVoidId($value)
  * @mixin \Eloquent
  */
 class VoidInvoice extends Model

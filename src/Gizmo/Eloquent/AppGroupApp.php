@@ -1,21 +1,21 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Relations\Pivot;
 
 /**
- * Yuiirax\Gizmo\Eloquent\AppGroupApp
+ * YuiiraX\Gizmo\Eloquent\AppGroupApp
  *
  * @property int                             $AppGroupId
  * @property int                             $AppId
- * @property-read \Yuiirax\Gizmo\Eloquent\App      $app
- * @property-read \Yuiirax\Gizmo\Eloquent\AppGroup $appGroup
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppGroupApp newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppGroupApp newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppGroupApp query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppGroupApp whereAppGroupId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\AppGroupApp whereAppId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\App      $app
+ * @property-read \YuiiraX\Gizmo\Eloquent\AppGroup $appGroup
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppGroupApp newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppGroupApp newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppGroupApp query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppGroupApp whereAppGroupId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\AppGroupApp whereAppId($value)
  * @mixin \Eloquent
  */
 class AppGroupApp extends Pivot

@@ -1,22 +1,22 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\ProductPeriodDayTime
+ * YuiiraX\Gizmo\Eloquent\ProductPeriodDayTime
  *
  * @property int                                     $PeriodDayId
  * @property int                                     $StartSecond
  * @property int                                     $EndSecond
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductPeriodDay $productPeriodDay
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductPeriodDayTime newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductPeriodDayTime newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductPeriodDayTime query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductPeriodDayTime whereEndSecond($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductPeriodDayTime wherePeriodDayId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductPeriodDayTime whereStartSecond($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductPeriodDay $productPeriodDay
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductPeriodDayTime newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductPeriodDayTime newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductPeriodDayTime query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductPeriodDayTime whereEndSecond($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductPeriodDayTime wherePeriodDayId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductPeriodDayTime whereStartSecond($value)
  * @mixin \Eloquent
  */
 class ProductPeriodDayTime extends Model

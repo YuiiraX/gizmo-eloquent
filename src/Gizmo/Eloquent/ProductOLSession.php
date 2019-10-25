@@ -1,22 +1,22 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\ProductOLSession
+ * YuiiraX\Gizmo\Eloquent\ProductOLSession
  *
  * @property int                                       $ProductOLId
  * @property int                                       $UsageSessionId
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLineSession $invoiceLineSession
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOL          $productOL
- * @property-read \Yuiirax\Gizmo\Eloquent\UsageSession       $usageSession
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLSession newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLSession newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLSession query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLSession whereProductOLId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLSession whereUsageSessionId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLineSession $invoiceLineSession
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOL          $productOL
+ * @property-read \YuiiraX\Gizmo\Eloquent\UsageSession       $usageSession
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLSession newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLSession newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLSession query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLSession whereProductOLId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLSession whereUsageSessionId($value)
  * @mixin \Eloquent
  */
 class ProductOLSession extends Model

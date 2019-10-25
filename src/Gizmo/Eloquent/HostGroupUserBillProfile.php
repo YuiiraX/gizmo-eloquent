@@ -1,28 +1,28 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Relations\Pivot;
 
 /**
- * Yuiirax\Gizmo\Eloquent\HostGroupUserBillProfile
+ * YuiiraX\Gizmo\Eloquent\HostGroupUserBillProfile
  *
  * @property int                                $HostGroupUserBillProfileId
  * @property int                                $HostGroupId
  * @property int                                $UserGroupId
  * @property int                                $BillProfileId
  * @property bool                               $IsEnabled
- * @property-read \Yuiirax\Gizmo\Eloquent\BillProfile $billProfile
- * @property-read \Yuiirax\Gizmo\Eloquent\HostGroup   $hostGroup
- * @property-read \Yuiirax\Gizmo\Eloquent\UserGroup   $userGroup
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupUserBillProfile newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupUserBillProfile newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupUserBillProfile query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupUserBillProfile whereBillProfileId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupUserBillProfile whereHostGroupId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupUserBillProfile whereHostGroupUserBillProfileId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupUserBillProfile whereIsEnabled($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupUserBillProfile whereUserGroupId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\BillProfile $billProfile
+ * @property-read \YuiiraX\Gizmo\Eloquent\HostGroup   $hostGroup
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserGroup   $userGroup
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupUserBillProfile newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupUserBillProfile newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupUserBillProfile query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupUserBillProfile whereBillProfileId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupUserBillProfile whereHostGroupId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupUserBillProfile whereHostGroupUserBillProfileId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupUserBillProfile whereIsEnabled($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupUserBillProfile whereUserGroupId($value)
  * @mixin \Eloquent
  */
 class HostGroupUserBillProfile extends Pivot

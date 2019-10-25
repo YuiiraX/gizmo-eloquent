@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\UserSessionChange
+ * YuiiraX\Gizmo\Eloquent\UserSessionChange
  *
  * @property int                                $UserSessionChangeId
  * @property int                                $UserSessionId
@@ -16,22 +16,22 @@ use Illuminate\Database\Eloquent\Model;
  * @property int|null                           $CreatedById
  * @property string                             $CreatedTime
  * @property int                                $Slot
- * @property-read \Yuiirax\Gizmo\Eloquent\User|null   $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\UserMember  $customer
- * @property-read \Yuiirax\Gizmo\Eloquent\Host        $host
- * @property-read \Yuiirax\Gizmo\Eloquent\UserSession $userSession
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange whereHostId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange whereSlot($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange whereSpan($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange whereState($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange whereUserId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange whereUserSessionChangeId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UserSessionChange whereUserSessionId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\User|null   $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserMember  $customer
+ * @property-read \YuiiraX\Gizmo\Eloquent\Host        $host
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserSession $userSession
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange whereHostId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange whereSlot($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange whereSpan($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange whereState($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange whereUserId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange whereUserSessionChangeId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UserSessionChange whereUserSessionId($value)
  * @mixin \Eloquent
  */
 class UserSessionChange extends Model

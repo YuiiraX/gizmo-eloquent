@@ -1,19 +1,19 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\ProductOLTimeFixed
+ * YuiiraX\Gizmo\Eloquent\ProductOLTimeFixed
  *
  * @property int                                         $ProductOLId
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLineTimeFixed $invoiceLineTimeFixed
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOL            $productOL
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLTimeFixed newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLTimeFixed newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLTimeFixed query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLTimeFixed whereProductOLId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLineTimeFixed $invoiceLineTimeFixed
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOL            $productOL
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLTimeFixed newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLTimeFixed newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLTimeFixed query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLTimeFixed whereProductOLId($value)
  * @mixin \Eloquent
  */
 class ProductOLTimeFixed extends Model

@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\Host
+ * YuiiraX\Gizmo\Eloquent\Host
  *
  * @property int                                                                                     $HostId
  * @property int                                                                                     $Number
@@ -18,40 +18,40 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null                                                                             $ModifiedTime
  * @property int|null                                                                                $CreatedById
  * @property string                                                                                  $CreatedTime
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\HostLayoutGroupLayout[] $_layoutGroups
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\HostLayoutGroupLayout[] $_layoutGroups
  * @property-read int|null                                                                           $_layout_groups_count
- * @property-read \Yuiirax\Gizmo\Eloquent\HostComputer                                                     $computer
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                                $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\HostEndpoint                                                     $endpoint
- * @property-read \Yuiirax\Gizmo\Eloquent\HostGroup|null                                                   $hostGroup
- * @property-read \Yuiirax\Gizmo\Eloquent\Icon|null                                                        $icon
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\HostLayoutGroup[]       $layoutGroups
+ * @property-read \YuiiraX\Gizmo\Eloquent\HostComputer                                                     $computer
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                                $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\HostEndpoint                                                     $endpoint
+ * @property-read \YuiiraX\Gizmo\Eloquent\HostGroup|null                                                   $hostGroup
+ * @property-read \YuiiraX\Gizmo\Eloquent\Icon|null                                                        $icon
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\HostLayoutGroup[]       $layoutGroups
  * @property-read int|null                                                                           $layout_groups_count
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                                $modifiedBy
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\ProductOrder[]          $orders
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                                $modifiedBy
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\ProductOrder[]          $orders
  * @property-read int|null                                                                           $orders_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\Reservation[]           $reservations
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\Reservation[]           $reservations
  * @property-read int|null                                                                           $reservations_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserGuest[]             $reservedGuests
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserGuest[]             $reservedGuests
  * @property-read int|null                                                                           $reserved_guests_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserSessionChange[]     $userSessionChanges
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserSessionChange[]     $userSessionChanges
  * @property-read int|null                                                                           $user_session_changes_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserSession[]           $userSessions
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserSession[]           $userSessions
  * @property-read int|null                                                                           $user_sessions_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereHostGroupId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereHostId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereIconId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereIsDeleted($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereNumber($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Host whereState($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereHostGroupId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereHostId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereIconId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereIsDeleted($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereNumber($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Host whereState($value)
  * @mixin \Eloquent
  */
 class Host extends Model

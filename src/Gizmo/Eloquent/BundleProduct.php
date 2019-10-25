@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Relations\Pivot;
 
 /**
- * Yuiirax\Gizmo\Eloquent\BundleProduct
+ * YuiiraX\Gizmo\Eloquent\BundleProduct
  *
  * @property int                                                                                      $BundleProductId
  * @property int                                                                                      $ProductBundleId
@@ -18,28 +18,28 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
  * @property string|null                                                                              $ModifiedTime
  * @property int|null                                                                                 $CreatedById
  * @property string                                                                                   $CreatedTime
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\BundleProductUserPrice[] $_userGroups
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\BundleProductUserPrice[] $_userGroups
  * @property-read int|null                                                                            $_user_groups_count
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                                 $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                                 $modifiedBy
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductBase                                                       $productBase
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductBundle                                                     $productBundle
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserGroup[]              $userGroups
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                                 $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                                 $modifiedBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductBase                                                       $productBase
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductBundle                                                     $productBundle
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserGroup[]              $userGroups
  * @property-read int|null                                                                            $user_groups_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct whereBundleProductId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct whereDisplayOrder($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct whereOptions($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct wherePrice($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct whereProductBundleId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct whereProductId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BundleProduct whereQuantity($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct whereBundleProductId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct whereDisplayOrder($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct whereOptions($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct wherePrice($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct whereProductBundleId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct whereProductId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BundleProduct whereQuantity($value)
  * @mixin \Eloquent
  */
 class BundleProduct extends Pivot

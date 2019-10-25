@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\SecurityProfile
+ * YuiiraX\Gizmo\Eloquent\SecurityProfile
  *
  * @property int                                                                                          $SecurityProfileId
  * @property string                                                                                       $Name
@@ -14,26 +14,26 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null                                                                                  $ModifiedTime
  * @property int|null                                                                                     $CreatedById
  * @property string                                                                                       $CreatedTime
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                                     $createdBy
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\HostGroup[]                  $hostGroups
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                                     $createdBy
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\HostGroup[]                  $hostGroups
  * @property-read int|null                                                                                $host_groups_count
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null                                                     $modifiedBy
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\SecurityProfilePolicy[]      $policies
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null                                                     $modifiedBy
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\SecurityProfilePolicy[]      $policies
  * @property-read int|null                                                                                $policies_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\SecurityProfileRestriction[] $restrictions
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\SecurityProfileRestriction[] $restrictions
  * @property-read int|null                                                                                $restrictions_count
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UserGroup[]                  $userGroups
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UserGroup[]                  $userGroups
  * @property-read int|null                                                                                $user_groups_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\SecurityProfile newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\SecurityProfile newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\SecurityProfile query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\SecurityProfile whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\SecurityProfile whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\SecurityProfile whereDisabledDrives($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\SecurityProfile whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\SecurityProfile whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\SecurityProfile whereName($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\SecurityProfile whereSecurityProfileId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\SecurityProfile newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\SecurityProfile newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\SecurityProfile query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\SecurityProfile whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\SecurityProfile whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\SecurityProfile whereDisabledDrives($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\SecurityProfile whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\SecurityProfile whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\SecurityProfile whereName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\SecurityProfile whereSecurityProfileId($value)
  * @mixin \Eloquent
  */
 class SecurityProfile extends Model

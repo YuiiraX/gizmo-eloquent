@@ -1,22 +1,22 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\ProductOLTime
+ * YuiiraX\Gizmo\Eloquent\ProductOLTime
  *
  * @property int                                      $ProductOLId
  * @property int                                      $ProductTimeId
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLineTime   $invoiceLineTime
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOLExtended $productOLExtended
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductTime       $productTime
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLTime newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLTime newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLTime query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLTime whereProductOLId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ProductOLTime whereProductTimeId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLineTime   $invoiceLineTime
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOLExtended $productOLExtended
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductTime       $productTime
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLTime newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLTime newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLTime query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLTime whereProductOLId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ProductOLTime whereProductTimeId($value)
  * @mixin \Eloquent
  */
 class ProductOLTime extends Model

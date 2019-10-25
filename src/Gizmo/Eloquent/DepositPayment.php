@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\DepositPayment
+ * YuiiraX\Gizmo\Eloquent\DepositPayment
  *
  * @property int                                       $DepositPaymentId
  * @property int                                       $DepositTransactionId
@@ -17,26 +17,26 @@ use Illuminate\Database\Eloquent\Model;
  * @property string                                    $CreatedTime
  * @property int|null                                  $ShiftId
  * @property int|null                                  $RegisterId
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null  $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\UserMember         $customer
- * @property-read \Yuiirax\Gizmo\Eloquent\DepositTransaction $depositTransaction
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null  $modifiedBy
- * @property-read \Yuiirax\Gizmo\Eloquent\Payment            $payment
- * @property-read \Yuiirax\Gizmo\Eloquent\Register|null      $register
- * @property-read \Yuiirax\Gizmo\Eloquent\Shift|null         $shift
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment whereDepositPaymentId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment whereDepositTransactionId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment wherePaymentId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment whereRegisterId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment whereShiftId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\DepositPayment whereUserId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null  $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserMember         $customer
+ * @property-read \YuiiraX\Gizmo\Eloquent\DepositTransaction $depositTransaction
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null  $modifiedBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\Payment            $payment
+ * @property-read \YuiiraX\Gizmo\Eloquent\Register|null      $register
+ * @property-read \YuiiraX\Gizmo\Eloquent\Shift|null         $shift
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment whereDepositPaymentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment whereDepositTransactionId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment wherePaymentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment whereRegisterId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment whereShiftId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\DepositPayment whereUserId($value)
  * @mixin \Eloquent
  */
 class DepositPayment extends Model

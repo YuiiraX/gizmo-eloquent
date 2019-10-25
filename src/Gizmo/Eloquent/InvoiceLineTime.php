@@ -1,28 +1,28 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\InvoiceLineTime
+ * YuiiraX\Gizmo\Eloquent\InvoiceLineTime
  *
  * @property int                                                                                $InvoiceLineId
  * @property int                                                                                $OrderLineId
  * @property int                                                                                $ProductTimeId
  * @property bool                                                                               $IsDepleted
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLineExtended                                         $invoiceLineExtended
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductOLTime                                               $productOLTime
- * @property-read \Yuiirax\Gizmo\Eloquent\ProductTime                                                 $productTime
- * @property-read \Illuminate\Database\Eloquent\Collection|\Yuiirax\Gizmo\Eloquent\UsageUserSession[] $usageUserSessions
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLineExtended                                         $invoiceLineExtended
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductOLTime                                               $productOLTime
+ * @property-read \YuiiraX\Gizmo\Eloquent\ProductTime                                                 $productTime
+ * @property-read \Illuminate\Database\Eloquent\Collection|\YuiiraX\Gizmo\Eloquent\UsageUserSession[] $usageUserSessions
  * @property-read int|null                                                                      $usage_user_sessions_count
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTime newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTime newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTime query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTime whereInvoiceLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTime whereIsDepleted($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTime whereOrderLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\InvoiceLineTime whereProductTimeId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTime newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTime newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTime query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTime whereInvoiceLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTime whereIsDepleted($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTime whereOrderLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\InvoiceLineTime whereProductTimeId($value)
  * @mixin \Eloquent
  */
 class InvoiceLineTime extends Model

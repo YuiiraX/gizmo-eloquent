@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Relations\Pivot;
 
 /**
- * Yuiirax\Gizmo\Eloquent\ReservationUser
+ * YuiiraX\Gizmo\Eloquent\ReservationUser
  *
  * @property int                                $ReservationUserId
  * @property int                                $ReservationId
@@ -14,20 +14,20 @@ use Illuminate\Database\Eloquent\Relations\Pivot;
  * @property string|null                        $ModifiedTime
  * @property int|null                           $CreatedById
  * @property string                             $CreatedTime
- * @property-read \Yuiirax\Gizmo\Eloquent\User|null   $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\UserMember  $customer
- * @property-read \Yuiirax\Gizmo\Eloquent\User|null   $modifiedBy
- * @property-read \Yuiirax\Gizmo\Eloquent\Reservation $reservation
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ReservationUser newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ReservationUser newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ReservationUser query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ReservationUser whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ReservationUser whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ReservationUser whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ReservationUser whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ReservationUser whereReservationId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ReservationUser whereReservationUserId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\ReservationUser whereUserId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\User|null   $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserMember  $customer
+ * @property-read \YuiiraX\Gizmo\Eloquent\User|null   $modifiedBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\Reservation $reservation
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ReservationUser newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ReservationUser newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ReservationUser query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ReservationUser whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ReservationUser whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ReservationUser whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ReservationUser whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ReservationUser whereReservationId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ReservationUser whereReservationUserId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\ReservationUser whereUserId($value)
  * @mixin \Eloquent
  */
 class ReservationUser extends Pivot

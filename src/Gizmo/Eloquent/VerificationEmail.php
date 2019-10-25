@@ -1,20 +1,20 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\VerificationEmail
+ * YuiiraX\Gizmo\Eloquent\VerificationEmail
  *
  * @property int                                 $VerificationId
  * @property string                              $Email
- * @property-read \Yuiirax\Gizmo\Eloquent\Verification $verification
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VerificationEmail newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VerificationEmail newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VerificationEmail query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VerificationEmail whereEmail($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VerificationEmail whereVerificationId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\Verification $verification
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VerificationEmail newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VerificationEmail newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VerificationEmail query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VerificationEmail whereEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VerificationEmail whereVerificationId($value)
  * @mixin \Eloquent
  */
 class VerificationEmail extends Model

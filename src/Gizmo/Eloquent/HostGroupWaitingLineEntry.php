@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry
+ * YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry
  *
  * @property int                                         $Id
  * @property int                                         $HostGroupId
@@ -20,27 +20,27 @@ use Illuminate\Database\Eloquent\Model;
  * @property string|null                                 $ModifiedTime
  * @property int|null                                    $CreatedById
  * @property string                                      $CreatedTime
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null    $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\UserMember           $customer
- * @property-read \Yuiirax\Gizmo\Eloquent\HostGroup            $hostGroup
- * @property-read \Yuiirax\Gizmo\Eloquent\HostGroupWaitingLine $hostGroupWaitingLine
- * @property-read \Yuiirax\Gizmo\Eloquent\User|null            $modifiedBy
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereHostGroupId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereIsManualPosition($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereIsReadyTimedOut($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereModifiedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereModifiedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry wherePosition($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereReadyTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereState($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereTimeInLine($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\HostGroupWaitingLineEntry whereUserId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null    $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserMember           $customer
+ * @property-read \YuiiraX\Gizmo\Eloquent\HostGroup            $hostGroup
+ * @property-read \YuiiraX\Gizmo\Eloquent\HostGroupWaitingLine $hostGroupWaitingLine
+ * @property-read \YuiiraX\Gizmo\Eloquent\User|null            $modifiedBy
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereHostGroupId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereIsManualPosition($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereIsReadyTimedOut($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereModifiedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereModifiedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry wherePosition($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereReadyTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereState($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereTimeInLine($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\HostGroupWaitingLineEntry whereUserId($value)
  * @mixin \Eloquent
  */
 class HostGroupWaitingLineEntry extends Model

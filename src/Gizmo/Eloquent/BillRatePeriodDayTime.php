@@ -1,22 +1,22 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\BillRatePeriodDayTime
+ * YuiiraX\Gizmo\Eloquent\BillRatePeriodDayTime
  *
  * @property int                                      $PeriodDayId
  * @property int                                      $StartSecond
  * @property int                                      $EndSecond
- * @property-read \Yuiirax\Gizmo\Eloquent\BillRatePeriodDay $billRatePeriodDay
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDayTime newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDayTime newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDayTime query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDayTime whereEndSecond($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDayTime wherePeriodDayId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\BillRatePeriodDayTime whereStartSecond($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\BillRatePeriodDay $billRatePeriodDay
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDayTime newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDayTime newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDayTime query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDayTime whereEndSecond($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDayTime wherePeriodDayId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\BillRatePeriodDayTime whereStartSecond($value)
  * @mixin \Eloquent
  */
 class BillRatePeriodDayTime extends Model

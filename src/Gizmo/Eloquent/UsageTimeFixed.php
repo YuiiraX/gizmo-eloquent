@@ -1,21 +1,21 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\UsageTimeFixed
+ * YuiiraX\Gizmo\Eloquent\UsageTimeFixed
  *
  * @property int                                         $UsageId
  * @property int                                         $InvoiceLineId
- * @property-read \Yuiirax\Gizmo\Eloquent\InvoiceLineTimeFixed $invoiceLineTimeFixed
- * @property-read \Yuiirax\Gizmo\Eloquent\UsageUserSession     $usageUserSession
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageTimeFixed newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageTimeFixed newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageTimeFixed query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageTimeFixed whereInvoiceLineId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\UsageTimeFixed whereUsageId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\InvoiceLineTimeFixed $invoiceLineTimeFixed
+ * @property-read \YuiiraX\Gizmo\Eloquent\UsageUserSession     $usageUserSession
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageTimeFixed newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageTimeFixed newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageTimeFixed query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageTimeFixed whereInvoiceLineId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\UsageTimeFixed whereUsageId($value)
  * @mixin \Eloquent
  */
 class UsageTimeFixed extends Model

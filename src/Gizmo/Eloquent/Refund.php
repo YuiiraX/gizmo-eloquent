@@ -1,11 +1,11 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\Refund
+ * YuiiraX\Gizmo\Eloquent\Refund
  *
  * @property int                                            $RefundId
  * @property int                                            $PaymentId
@@ -17,27 +17,27 @@ use Illuminate\Database\Eloquent\Model;
  * @property int|null                                       $RegisterId
  * @property int|null                                       $CreatedById
  * @property string                                         $CreatedTime
- * @property-read \Yuiirax\Gizmo\Eloquent\UserOperator|null       $createdBy
- * @property-read \Yuiirax\Gizmo\Eloquent\DepositTransaction|null $depositTransaction
- * @property-read \Yuiirax\Gizmo\Eloquent\Payment                 $payment
- * @property-read \Yuiirax\Gizmo\Eloquent\PointTransaction|null   $pointTransaction
- * @property-read \Yuiirax\Gizmo\Eloquent\PaymentMethod           $refundMethod
- * @property-read \Yuiirax\Gizmo\Eloquent\Register|null           $register
- * @property-read \Yuiirax\Gizmo\Eloquent\Shift|null              $shift
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund ofPeriod($start, $end)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund whereAmount($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund whereCreatedById($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund whereCreatedTime($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund whereDepositTransactionId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund wherePaymentId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund wherePointTransactionId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund whereRefundId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund whereRefundMethodId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund whereRegisterId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\Refund whereShiftId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\UserOperator|null       $createdBy
+ * @property-read \YuiiraX\Gizmo\Eloquent\DepositTransaction|null $depositTransaction
+ * @property-read \YuiiraX\Gizmo\Eloquent\Payment                 $payment
+ * @property-read \YuiiraX\Gizmo\Eloquent\PointTransaction|null   $pointTransaction
+ * @property-read \YuiiraX\Gizmo\Eloquent\PaymentMethod           $refundMethod
+ * @property-read \YuiiraX\Gizmo\Eloquent\Register|null           $register
+ * @property-read \YuiiraX\Gizmo\Eloquent\Shift|null              $shift
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund ofPeriod($start, $end)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund whereAmount($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund whereCreatedById($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund whereCreatedTime($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund whereDepositTransactionId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund wherePaymentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund wherePointTransactionId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund whereRefundId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund whereRefundMethodId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund whereRegisterId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\Refund whereShiftId($value)
  * @mixin \Eloquent
  */
 class Refund extends Model

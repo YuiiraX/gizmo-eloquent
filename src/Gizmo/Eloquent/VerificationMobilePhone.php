@@ -1,20 +1,20 @@
 <?php
 
-namespace Yuiirax\Gizmo\Eloquent;
+namespace YuiiraX\Gizmo\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Yuiirax\Gizmo\Eloquent\VerificationMobilePhone
+ * YuiiraX\Gizmo\Eloquent\VerificationMobilePhone
  *
  * @property int                                 $VerificationId
  * @property string                              $PhoneNumber
- * @property-read \Yuiirax\Gizmo\Eloquent\Verification $verification
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VerificationMobilePhone newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VerificationMobilePhone newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VerificationMobilePhone query()
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VerificationMobilePhone wherePhoneNumber($value)
- * @method static \Illuminate\Database\Eloquent\Builder|\Yuiirax\Gizmo\Eloquent\VerificationMobilePhone whereVerificationId($value)
+ * @property-read \YuiiraX\Gizmo\Eloquent\Verification $verification
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VerificationMobilePhone newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VerificationMobilePhone newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VerificationMobilePhone query()
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VerificationMobilePhone wherePhoneNumber($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\YuiiraX\Gizmo\Eloquent\VerificationMobilePhone whereVerificationId($value)
  * @mixin \Eloquent
  */
 class VerificationMobilePhone extends Model
