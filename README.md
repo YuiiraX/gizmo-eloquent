@@ -7,3 +7,15 @@
 
 A library that converts GAMP tables into Laravel Eloquent Models. 
 This is helpful when you want to build a laravel reporting site for GAMP. 
+
+## Installation  
+
+### Install Composer  
+
+On Linux / Unix / OSX: `curl -sS https://getcomposer.org/installer | php`  
+On Windows: https://getcomposer.org/Composer-Setup.exe
+Or follow instructions on https://getcomposer.org/
+
+### Install the package
+
+`composer require yuiirax/gizmo-eloquent`
